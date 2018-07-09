@@ -22,7 +22,7 @@ services:
     volumes:
       - magma:/magma
     environment:
-      - DOMAIN=huy.im
+      - DOMAIN=rapidnetworks.org
       - MYSQL_HOST=mariadb
       - MYSQL_USER=root
       - MYSQL_PASSWORD=s3cret
