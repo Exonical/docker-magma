@@ -14,7 +14,7 @@ yum install -q -y patch autoconf automake libtool gcc-c++ check-devel ncurses-de
 
 
 if [ ! -d "/build" ]; then
-    git clone --depth=1 https://github.com/rgv151/magma.git /build
+    git clone --depth=1 https://github.com/lavabit/magma.git /build
 fi
 
 mkdir -p $BASE_DIR/bin
